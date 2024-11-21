@@ -473,7 +473,80 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form">
+          <p class="footer-header-form-subscribe">Subscribe</p>
+          <form class="form-subscribe">
+            <label>
+              <input
+                class="input-form-subscrible"
+                type="email"
+                name="email_address"
+                placeholder="E-mail"
+                value=""
+              />
+            </label>
+            <button type="submit" class="button-submit">Subscribe</button>
+          </form>
+        </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-button"></button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+
+        <form class="modal-form">
+          <div class="modal-form-item">
+            <label class="form-label">
+              Name
+              <input
+                class="form-input"
+                name="input-name"
+                id="input-name"
+                type="text"
+              />
+            </label>
+          </div>
+
+          <div class="modal-form-item">
+            <label class="form-label">
+              Phone
+              <input
+                class="form-input"
+                name="input-tel"
+                id="input-tel"
+                type="tel"
+              />
+            </label>
+          </div>
+
+          <div class="modal-form-item">
+            <label class="form-label">
+              Email
+              <input
+                class="form-input"
+                name="input-email"
+                id="input-email"
+                type="email"
+              />
+            </label>
+          </div>
+
+          <div class="modal-form-item">
+            <label class="form-label">
+              Comment
+              <textarea
+                class="form-textarea"
+                name="Text input"
+                rows="5"
+                placeholder="Text input"
+              >
+              </textarea>
+            </label>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
