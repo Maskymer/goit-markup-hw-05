@@ -570,7 +570,7 @@ img {
   gap: 24px;
 }
 
-.label-form-subscrible {
+.input-form-subscrible {
   width: 264px;
   height: 40px;
   background-color: transparent;
@@ -796,20 +796,20 @@ img {
   border-color: #4D5AE5;
 }
 
-input[type='checbox']:checked + .user-agreement-text + .custom-checkbox {
+input[type="checkbox"]:checked + .user-agreement-text .custom-checkbox{
   background-color: #404bbf;
   border-color: #404bbf;
 }
 
-.icon-custom-checkbox {
-  opacity: 0;
+input[type="checkbox"]:checked + .user-agreement-text .custom-checkbox .icon-custom-checkbox {
+fill: #F4F4FD;
+  opacity: 1;
 }
 
-input[type='checbox']:checked
-  + .user-agreement-text
-  + .custom-checkbox
-  + .icon-custom-checkbox {
-  opacity: 1;
+.icon-custom-checkbox {
+  fill: transparent;
+  opacity: 0;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-chekbox {
@@ -836,13 +836,12 @@ input[type='checbox']:checked
   border-radius: 2px;
   margin-right: 8px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
 }
 
-.icon-custom-checkbox {
-  color: #f4f4fd;
-}
 
 .link-policy {
   font-size: 12px;
