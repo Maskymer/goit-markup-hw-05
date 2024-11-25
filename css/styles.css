@@ -839,11 +839,14 @@ img {
 input[type="checkbox"]:checked + .user-agreement-text > .custom-checkbox {
   background-color: #404bbf;
   border: none;
-}
-
-input[type="checkbox"]:checked + .user-agreement-text > .custom-checkbox > .icon-custom-checkbox > {
   fill: #F4F4FD;
 }
+
+/*
+input[type="checkbox"]:checked + .user-agreement-text > .custom-checkbox > .icon-custom-checkbox > {
+  
+}
+*/
 
 .link-policy {
   font-size: 12px;
