@@ -838,6 +838,7 @@ img {
 
 .custom-checkbox:hover{
   fill: #F4F4FD;
+  
 }
 
 input[type="checkbox"]:checked + label > span {
