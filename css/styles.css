@@ -798,18 +798,14 @@ img {
   border-color: #4D5AE5;
 }
 
-/*
- input[type="checkbox"]:checked+.modal-label .modal-checkbox-icon
-*/
-
-input[type="checkbox"]:checked + .user-agreement-text > .custom-checkbox{
+.input-check:checked + .user-agreement-text .custom-checkbox{
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
 }
 
-input[type="checkbox"]:checked + .user-agreement-text > .custom-checkbox > .icon-custom-checkbox {
+.input-check:checked + .user-agreement-text .custom-checkbox .icon-custom-checkbox {
 fill: #F4F4FD;
+background-color: #404bbf;
   opacity: 1;
 }
 
