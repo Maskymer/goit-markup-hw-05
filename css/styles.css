@@ -805,10 +805,6 @@ img {
   fill: transparent;
 }
 
-input[type="checkbox"]:checked+.user-agreement-text .custom-checkbox .icon-custom-checkbox {
-  fill: #F4F4FD;
-}
-
 .modal-chekbox {
   margin-bottom: 24px;
 }
@@ -820,29 +816,30 @@ input[type="checkbox"]:checked+.user-agreement-text .custom-checkbox .icon-custo
   letter-spacing: 0.04em;
   text-align: left;
   margin-bottom: 24px;
-  color: #8e8f99;;
+  color: #8e8f99;
 }
 
 .custom-checkbox {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 16px;
-  height: 16px;
-  border-radius: 2px;
-  margin-right: 8px;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: transparent;
-  fill: transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+      border: 1px solid rgba(46, 47, 66, 0.4);
+      width: 16px;
+      height: 16px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      fill: transparent;
+      
 }
 
 input[type="checkbox"]:checked + .user-agreement-text .custom-checkbox {
   background-color: #404bbf;
   border: none;
+  fill: #F4F4FD;
 }
 
 .link-policy {
