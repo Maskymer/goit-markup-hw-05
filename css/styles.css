@@ -802,7 +802,7 @@ img {
 
 
 .icon-custom-checkbox {
-  fill: transparent;
+  fill: #F4F4FD;
 }
 
 .modal-chekbox {
@@ -836,14 +836,12 @@ img {
       
 }
 
-.custom-checkbox:hover{
-  fill: #F4F4FD;
-  
-}
-
-input[type="checkbox"]:checked + label > span {
+input[type="checkbox"]:checked + .user-agreement-text > .custom-checkbox {
   background-color: #404bbf;
   border: none;
+}
+
+input[type="checkbox"]:checked + .user-agreement-text > .custom-checkbox > .icon-custom-checkbox > {
   fill: #F4F4FD;
 }
 
@@ -859,7 +857,7 @@ input[type="checkbox"]:checked + label > span {
 }
 
 .button.btn-modal {
-  margin-bottom: 24px;
+  
 }
 
 /* #endregion */
